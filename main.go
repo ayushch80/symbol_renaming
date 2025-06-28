@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"symbol_renaming/utils"
 	"symbol_renaming/renamer"
+	"symbol_renaming/utils"
 )
 
 func main() {
@@ -19,6 +19,6 @@ func main() {
 
 	deleteFolder := true
 	if deleteFolder {
-		utils.DeleteFolder(tmpFolder)
+		// utils.DeleteFolder(tmpFolder)
 	}
 }

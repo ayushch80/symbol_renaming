@@ -59,7 +59,7 @@ func Unzip(zipPath string) string {
 	return dst
 }
 
-func DeleteFolder (folder string) {
+func DeleteFolder(folder string) {
 	err := os.RemoveAll(folder)
 	if err != nil {
 		log.Fatal("Failed while deleting :", folder, " :", err.Error())
